@@ -308,3 +308,482 @@ Exception: Invalid data
 [2024-03-08 17:10:56,214: INFO: main: --- Stage Data Transformation completed ---
 
 ]
+[2024-03-08 17:27:26,549: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 17:27:26,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 17:27:26,570: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 17:27:26,572: INFO: common: Directory created at: artifacts]
+[2024-03-08 17:29:11,051: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 17:29:11,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 17:29:11,057: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 17:29:11,060: INFO: common: Directory created at: artifacts]
+[2024-03-08 17:32:49,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 17:32:49,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 17:32:49,555: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 17:32:49,557: INFO: common: Directory created at: artifacts]
+[2024-03-08 17:32:49,559: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 18:46:50,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 18:46:50,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 18:46:50,543: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 18:46:50,546: INFO: common: Directory created at: artifacts]
+[2024-03-08 18:46:50,549: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 18:47:32,022: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 18:47:32,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 18:47:32,028: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 18:47:32,029: INFO: common: Directory created at: artifacts]
+[2024-03-08 18:47:32,031: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 18:47:33,549: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:00:50,032: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:00:50,036: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:00:50,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:00:50,039: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:00:50,041: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:00:50,042: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:00:51,281: INFO: data_ingestion: artifacts/data_ingestion/data.zip has been downloaded with following info: 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: ED20:2C2256:A0DBD:BF737:65EAFDF1
+Accept-Ranges: bytes
+Date: Fri, 08 Mar 2024 12:00:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1242-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709899251.506497,VS0,VE300
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7daee46954e84a3264337c9a604d3749b5270df2
+Expires: Fri, 08 Mar 2024 12:05:50 GMT
+Source-Age: 0
+
+]
+[2024-03-08 19:00:51,295: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:00:51,295: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:00:51,298: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:00:51,300: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:00:51,302: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:00:51,303: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:00:51,304: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:00:51,330: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:00:51,331: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:00:51,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:00:51,344: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:00:51,346: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:00:51,348: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:00:51,349: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:00:51,381: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:00:51,382: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:00:51,382: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:00:51,382: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:00:51,383: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:00:51,386: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:00:51,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:00:51,391: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:00:51,393: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:00:51,393: ERROR: main: 'ConfigurationManager' object has no attribute 'params']
+Traceback (most recent call last):
+  File "C:\Users\ACER\MLFLow_DVC_Project\main.py", line 49, in <module>
+    obj.main()
+  File "c:\users\acer\mlflow_dvc_project\src\MLProject\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\acer\mlflow_dvc_project\src\MLProject\config\configuration.py", line 61, in get_model_trainer_config
+    params = self.params.ElasticNet
+             ^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'params'
+[2024-03-08 19:07:10,038: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:07:10,042: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:07:10,044: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:07:10,046: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:07:10,047: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:07:10,048: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:07:11,056: INFO: data_ingestion: artifacts/data_ingestion/data.zip has been downloaded with following info: 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: ED20:2C2256:A0DBD:BF737:65EAFDF1
+Accept-Ranges: bytes
+Date: Fri, 08 Mar 2024 12:07:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1265-QPG
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1709899630.289545,VS0,VE284
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 36b84c16f4dd965449729f0cfd663f7bc8c853d4
+Expires: Fri, 08 Mar 2024 12:12:10 GMT
+Source-Age: 0
+
+]
+[2024-03-08 19:07:11,070: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:07:11,071: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:07:11,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:07:11,077: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:07:11,079: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:07:11,081: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:07:11,082: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:07:11,108: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:07:11,108: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:07:11,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:07:11,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:07:11,117: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:07:11,119: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:07:11,120: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:07:11,150: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:07:11,151: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:07:11,151: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:07:11,152: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:07:11,153: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:07:11,156: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:07:11,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:07:11,162: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:07:11,163: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:07:11,165: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:07:11,206: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:07:11,206: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:07:11,210: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:07:11,211: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:07:11,214: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:07:11,215: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:07:11,216: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:07:11,783: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:07:18,081: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:09:39,718: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:09:39,723: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:09:39,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:09:39,733: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:09:39,734: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:09:39,735: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:09:39,736: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:09:39,741: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:09:39,742: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:09:39,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:09:39,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:09:39,749: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:09:39,749: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:09:39,750: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:09:39,772: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:09:39,773: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:09:39,778: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:09:39,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:09:39,782: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:09:39,783: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:09:39,784: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:09:39,809: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:09:39,810: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:09:39,811: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:09:39,811: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:09:39,812: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:09:39,815: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:09:39,817: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:09:39,819: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:09:39,821: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:09:39,821: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:09:39,861: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:09:39,862: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:09:39,865: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:09:39,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:09:39,869: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:09:39,870: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:09:39,871: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:09:40,469: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:09:46,753: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:10:08,040: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:10:08,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:10:08,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:10:08,055: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:10:08,056: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:10:08,057: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:10:08,058: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:10:08,062: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:10:08,063: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:10:08,067: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:10:08,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:10:08,072: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:10:08,074: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:10:08,075: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:10:08,103: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:10:08,105: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:10:08,110: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:10:08,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:10:08,114: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:10:08,116: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:10:08,117: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:10:08,146: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:10:08,146: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:10:08,147: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:10:08,148: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:10:08,149: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:10:08,153: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:10:08,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:10:08,158: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:10:08,159: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:10:08,160: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:10:08,198: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:10:08,200: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:10:08,204: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:10:08,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:10:08,208: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:10:08,209: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:10:08,209: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:10:08,723: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:10:16,103: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:19:17,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:19:17,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:19:17,993: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:19:17,995: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:19:17,996: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:19:18,722: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:21:48,056: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:21:48,059: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:21:48,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:21:48,063: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:21:48,063: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:21:48,063: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:21:48,064: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:21:48,067: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:21:48,068: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:21:48,071: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:21:48,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:21:48,074: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:21:48,075: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:21:48,075: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:21:48,098: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:21:48,098: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:21:48,104: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:21:48,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:21:48,108: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:21:48,109: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:21:48,111: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:21:48,141: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:21:48,141: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:21:48,143: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:21:48,143: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:21:48,143: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:21:48,148: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:21:48,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:21:48,154: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:21:48,155: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:21:48,156: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:21:48,199: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:21:48,200: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:21:48,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:21:48,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:21:48,208: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:21:48,209: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:21:48,209: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:21:48,707: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:21:55,041: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:46:33,892: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:46:33,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:46:33,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:46:33,901: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:46:33,902: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:46:33,903: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:46:33,904: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:46:33,907: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:46:33,908: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:46:33,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:46:33,915: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:46:33,917: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:46:33,918: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:46:33,919: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:46:33,977: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:46:33,978: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:46:33,985: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:46:33,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:46:33,991: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:46:34,004: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:46:34,005: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:46:34,067: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:46:34,068: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:46:34,068: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:46:34,069: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:46:34,069: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:46:34,073: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:46:34,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:46:34,078: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:46:34,080: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:46:34,081: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:46:34,126: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:46:34,127: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:46:34,131: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:46:34,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:46:34,135: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:46:34,136: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:46:34,136: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:46:35,309: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:46:48,302: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:47:27,004: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:47:27,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:47:27,014: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:47:27,016: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:47:27,018: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:47:27,018: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:47:27,019: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:47:27,024: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:47:27,025: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:47:27,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:47:27,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:47:27,034: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:47:27,036: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:47:27,036: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:47:27,062: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:47:27,063: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:47:27,067: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:47:27,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:47:27,071: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:47:27,072: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:47:27,073: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:47:27,098: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:47:27,099: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:47:27,099: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:47:27,100: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:47:27,100: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:47:27,103: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:47:27,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:47:27,107: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:47:27,108: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:47:27,109: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:47:27,149: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:47:27,150: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:47:27,153: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:47:27,154: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:47:27,156: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:47:27,156: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:47:27,157: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:47:28,271: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:47:40,670: INFO: main: --- Stage Model Evaluation completed ---
+
+]
+[2024-03-08 19:49:41,277: INFO: main: --- Stage Data Ingestion started ---]
+[2024-03-08 19:49:41,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:49:41,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:49:41,297: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:49:41,301: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:49:41,303: INFO: common: Directory created at: artifacts/data_ingestion]
+[2024-03-08 19:49:41,304: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-08 19:49:41,308: INFO: main: --- Stage Data Ingestion completed ---
+
+]
+[2024-03-08 19:49:41,309: INFO: main: --- Stage Data Validation started ---]
+[2024-03-08 19:49:41,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:49:41,318: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:49:41,322: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:49:41,323: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:49:41,324: INFO: common: Directory created at: artifacts/data_validation]
+[2024-03-08 19:49:41,354: INFO: main: --- Stage Data Validation completed ---
+
+]
+[2024-03-08 19:49:41,355: INFO: main: --- Stage Data Transformation started ---]
+[2024-03-08 19:49:41,361: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:49:41,362: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:49:41,367: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:49:41,369: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:49:41,370: INFO: common: Directory created at: artifacts/data_transformation]
+[2024-03-08 19:49:41,404: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-08 19:49:41,405: INFO: data_transformation: (1199, 12)]
+[2024-03-08 19:49:41,405: INFO: data_transformation: (400, 12)]
+[2024-03-08 19:49:41,406: INFO: main: --- Stage Data Transformation completed ---
+
+]
+[2024-03-08 19:49:41,407: INFO: main: --- Stage Model Trainer started ---]
+[2024-03-08 19:49:41,410: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:49:41,411: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:49:41,414: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:49:41,415: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:49:41,416: INFO: common: Directory created at: artifacts/model_trainer]
+[2024-03-08 19:49:41,457: INFO: main: --- Stage Model Trainer completed ---
+
+]
+[2024-03-08 19:49:41,458: INFO: main: --- Stage Model Evaluation started ---]
+[2024-03-08 19:49:41,461: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-08 19:49:41,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-08 19:49:41,465: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-08 19:49:41,467: INFO: common: Directory created at: artifacts]
+[2024-03-08 19:49:41,467: INFO: common: Directory created at: artifacts/model_evaluation]
+[2024-03-08 19:49:43,065: INFO: common: Saved json file at: artifacts\model_evaluation\metrics.json]
+[2024-03-08 19:49:57,935: INFO: main: --- Stage Model Evaluation completed ---
+
+]

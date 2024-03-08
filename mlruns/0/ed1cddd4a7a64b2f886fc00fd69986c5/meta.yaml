@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ACER/MLFLow_DVC_Project/mlruns/0/ed1cddd4a7a64b2f886fc00fd69986c5/artifacts
+end_time: 1709899816100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed1cddd4a7a64b2f886fc00fd69986c5
+run_name: caring-steed-695
+run_uuid: ed1cddd4a7a64b2f886fc00fd69986c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709899808668
+status: 3
+tags: []
+user_id: ACER

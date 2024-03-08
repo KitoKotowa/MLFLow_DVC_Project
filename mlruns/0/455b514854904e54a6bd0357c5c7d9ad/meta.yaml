@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ACER/MLFLow_DVC_Project/mlruns/0/455b514854904e54a6bd0357c5c7d9ad/artifacts
+end_time: 1709899638078
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 455b514854904e54a6bd0357c5c7d9ad
+run_name: awesome-snipe-735
+run_uuid: 455b514854904e54a6bd0357c5c7d9ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709899631710
+status: 3
+tags: []
+user_id: ACER

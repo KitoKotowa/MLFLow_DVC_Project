@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ACER/MLFLow_DVC_Project/mlruns/0/24b8bf2c1d014d56ae7b0868dfbc2b5d/artifacts
+end_time: 1709900515038
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24b8bf2c1d014d56ae7b0868dfbc2b5d
+run_name: bald-auk-363
+run_uuid: 24b8bf2c1d014d56ae7b0868dfbc2b5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709900508657
+status: 3
+tags: []
+user_id: ACER

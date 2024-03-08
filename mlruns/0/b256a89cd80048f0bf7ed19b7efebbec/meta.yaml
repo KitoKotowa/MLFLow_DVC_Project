@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ACER/MLFLow_DVC_Project/mlruns/0/b256a89cd80048f0bf7ed19b7efebbec/artifacts
+end_time: 1709899786750
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b256a89cd80048f0bf7ed19b7efebbec
+run_name: intrigued-ray-532
+run_uuid: b256a89cd80048f0bf7ed19b7efebbec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709899780420
+status: 3
+tags: []
+user_id: ACER
